@@ -65,7 +65,7 @@ for file in pcapFiles:
       print("[+] PCAP -> GrayScale image : " + file)
       print("[+] Img Size %d*%d"%(256,256))
       s = f_src.read()
-      hexst = binascii.hexlify(content)
+      hexst = binascii.hexlify(s)
       for i in (0,len(hexst),4):
         Pixel_List[int(hexst[i:i+2],16)+int(hexst[i+2:i+4])]
       print(len(Pixel_List))
