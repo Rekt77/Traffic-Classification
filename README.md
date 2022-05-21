@@ -1,2 +1,3 @@
 # Traffic-Classification
-Malicious traffic classification by Convolutional Neural Network
+Malicious netflow clustering by Word2Vec
+- unfinished
